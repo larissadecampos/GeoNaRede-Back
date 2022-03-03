@@ -1,2 +1,2 @@
 # GeoNoMundo
-Blog sobre geografia. 
+Blog sobre geografia e tecnologia.
