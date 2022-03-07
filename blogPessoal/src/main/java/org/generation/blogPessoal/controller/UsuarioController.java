@@ -61,7 +61,7 @@ public class UsuarioController {
 		
 		return usuarioService.cadastrarUsuario(usuario)
 				.map(resposta -> ResponseEntity.status(HttpStatus.CREATED).body(resposta))
-				.orElse(ResponseEntity.status(HttpStatus.BAD_REQUEST).build());
+				.orElseGet(()-> ResponseEntity.status(HttpStatus.BAD_REQUEST).build());
 				
 	}
 	
