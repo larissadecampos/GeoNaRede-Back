@@ -47,7 +47,7 @@ public class UsuarioControllerTest {
 					"bolsavermelha", "https://pbs.twimg.com/profile_images/3457438261/e839142b1e74a6c69ce06189edf5a4e7_400x400.jpeg\r\n"));
 		 
 		    Usuario usuarioUpdate = new Usuario(usuarioCreate.get().getId(),
-				"TinkWink da Silva", "tinkwink@telletubies.com.br", 
+				"TinkWink de Campos", "tinkwink@telletubies.com.br", 
 				"bolsavermelha", "https://pbs.twimg.com/profile_images/3457438261/e839142b1e74a6c69ce06189edf5a4e7_400x400.jpeg\r\n");	
 
 		   HttpEntity<Usuario> requisicaoAtualizacao = new HttpEntity<Usuario>(usuarioUpdate);

@@ -34,7 +34,7 @@ public class  UsuarioRepositoryTests {
 
 		usuarioRepository.save(new Usuario(0L, "Ramon Daniel Santos", "ramonzito@hotmail.com","1223456789", "https://i.imgur.com/FETvs2O.jpg"));
 
-		usuarioRepository.save(new Usuario(0L, "Robson Santos Carmo", "robsonbruxinho@carmo.com","mago1234", "https://i.imgur.com/FETvs2O.jpg"));
+		usuarioRepository.save(new Usuario(0L, "Robson Santos Carmo", "robsonbruxinho@carmo.com","magia1234", "https://i.imgur.com/FETvs2O.jpg"));
 		
 		usuarioRepository.save(new Usuario(0L, "Paola Bracho Santos", "ataldausurpadora@yahoo.com","CarlosDaniel", "https://i.imgur.com/FETvs2O.jpg"));
    }
