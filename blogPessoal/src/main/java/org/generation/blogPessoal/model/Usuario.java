@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;	
+    private Long id;	
 	
 	@NotBlank(message = "O atributo é obrigatório!")
 	@Size(min = 2, max = 100)
@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 	@JsonIgnoreProperties ("usuario")
 	private List<Postagem>postagem;
 	
-	public Usuario(long id, String nome, String usuario, String senha, String foto) {
+	public Usuario(Long id, String nome, String usuario, String senha, String foto) {
 		this.id = id;
 		this.nome = nome;
 		this.usuario = usuario;
@@ -50,11 +50,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 	
   }
 
-	public long getId() {
+	public Usuario() {}
+	
+	
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

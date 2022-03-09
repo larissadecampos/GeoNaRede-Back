@@ -1,9 +1,7 @@
 package org.generation.blogPessoal.controller;
 
 import java.util.List;
-
 import javax.validation.Valid;
-
 import org.generation.blogPessoal.model.Tema;
 import org.generation.blogPessoal.repository.TemaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
