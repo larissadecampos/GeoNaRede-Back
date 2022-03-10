@@ -15,6 +15,11 @@ Esse é o back-end completo do meu projeto de blog pessoal sobre geografia, tecn
 - Heroku
 - Git
 
+# Documentação do projeto
+
+<br />
+<a href="https://geonarede.herokuapp.com/" target="_blank">Documentação do projeto 📚</a>
+
 # Habilidades Adquiridas
 - [x] Lógica de Programação, Programação Orientada à Objetos em JAVA - POO.
 - [x] Conhecimentos básicos em Maven/Gradle, JPA, Spring Boot e Spring Data.
@@ -28,7 +33,6 @@ Esse é o back-end completo do meu projeto de blog pessoal sobre geografia, tecn
 ![BuenDíaMundo!GIF](https://user-images.githubusercontent.com/97813649/157549038-c1137241-700f-4202-9ec2-1e12ebbc4831.gif)
 
 <h2 id="ref">Referências</h2>
-
 
 <br />
 
