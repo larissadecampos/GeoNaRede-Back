@@ -10,8 +10,9 @@ Esse é o back-end completo do meu projeto de blog pessoal sobre geografia, tecn
 - JAVA
 - MySQL
 - Spring Boot
-- API - REST - CRUD
+- API - REST - CRUD - Securitu - JUnit - Deploy
 - Postman 
+- Heroku
 - Git
 
 # Habilidades Adquiridas
