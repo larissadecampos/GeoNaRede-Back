@@ -1,4 +1,4 @@
-# GeoNoMundo 🌎👩🏽‍💻
+# GeoNaRede 🌎👩🏽‍💻
 Esse é o back-end completo do meu projeto de blog pessoal sobre geografia, tecnologia e análise de dados. 
 
 # Etapas de desenvolvimento
