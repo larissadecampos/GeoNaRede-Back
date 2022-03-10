@@ -4,7 +4,7 @@ Esse é o back-end completo do meu projeto de blog pessoal sobre geografia, tecn
 # Etapas de desenvolvimento
 -  Modelagem do Banco de Dados.
 -  Criação do projeto Maven usando o Spring Boot.
--  Desenvolvimento das camadas de entidade, repository, controller, service ,security e test do projeto.
+-  Desenvolvimento das camadas de entidade, repository, controller, service, security e test do projeto.
 
 # Softwares & Ferramentas utilizadas nesse projeto
 - JAVA
