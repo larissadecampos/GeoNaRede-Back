@@ -1,6 +1,6 @@
 package com.generation.blogpessoal.model;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,10 +14,12 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import org.hibernate.annotations.UpdateTimestamp;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
-@Table(name = "tb_postagem") 
+@Table(name = "tb_postagens") 
 public class Postagem {
 
 	@Id
@@ -32,8 +34,8 @@ public class Postagem {
 	@Size(min = 1, max = 1000, message = "O atributo texto deve conter no mínimo 1 e no máximo 1000 caracteres")
 	private String texto;
 
-	@UpdateTimestamp
-	private LocalDateTime data;
+	@Temporal(TemporalType.TIMESTAMP) 
+	private Date data = new java.sql.Date(System.currentTimeMillis());
 
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
@@ -43,8 +45,6 @@ public class Postagem {
 	@JsonIgnoreProperties("postagem")
 	private Usuario usuario;
 
-	
-	
 	public Long getId() {
 		return id;
 	}
@@ -69,16 +69,16 @@ public class Postagem {
 		this.texto = texto;
 	}
 
-	public LocalDateTime getData() {
+	public Date getData() {
 		return data;
 	}
 
-	public void setData(LocalDateTime data) {
+	public void setData(Date data) {
 		this.data = data;
 	}
 
 	public Tema getTema() {
-		return this.tema;
+		return tema;
 	}
 
 	public void setTema(Tema tema) {
@@ -86,7 +86,7 @@ public class Postagem {
 	}
 
 	public Usuario getUsuario() {
-		return this.usuario;
+		return usuario;
 	}
 
 	public void setUsuario(Usuario usuario) {
@@ -94,3 +94,4 @@ public class Postagem {
 	}
 
 }
+	
